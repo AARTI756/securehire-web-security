@@ -200,18 +200,6 @@ No client .env is required — the Vite proxy forwards `/api` to `http://localho
 
 ---
 
-## Demo Credentials
-
-> ⚠️ These are **local demo accounts only**. Use strong unique passwords in production.
-
-| Role | Email | Password |
-|------|-------|----------|
-| Candidate | candidate@example.com | Candidate123! |
-| Recruiter | recruiter@example.com | Recruiter123! |
-| Recruiter 2 | recruiter2@example.com | Recruiter123! |
-| Admin | admin@example.com | Admin123! |
-
----
 
 ## Security Features Implemented
 

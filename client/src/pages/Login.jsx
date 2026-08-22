@@ -109,16 +109,7 @@ export default function Login() {
             <Link to="/register" className="text-blue-600 hover:underline font-medium">Register here</Link>
           </p>
         </div>
-
-        {/* Demo Credentials */}
-        <div className="mt-4 card bg-blue-50 border-blue-200">
-          <p className="text-xs font-semibold text-blue-700 mb-2 uppercase tracking-wide">Demo Credentials</p>
-          <div className="space-y-1 text-xs text-blue-800 font-mono">
-            <div>Candidate: candidate@example.com / Candidate123!</div>
-            <div>Recruiter: recruiter@example.com / Recruiter123!</div>
-            <div>Admin: admin@example.com / Admin123!</div>
-          </div>
-        </div>
+        
       </div>
     </div>
   )
