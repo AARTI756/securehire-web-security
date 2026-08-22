@@ -13,6 +13,7 @@ const recruiterRoutes = require('./routes/recruiter');
 const adminRoutes = require('./routes/admin');
 
 const app = express();
+app.set('trust proxy', 1);
 
 // Set secure HTTP headers via Helmet
 app.use(helmet());
